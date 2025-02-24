@@ -17,7 +17,7 @@ public class 일주일_일정관리_박시우 {
             switch (day) {
                 case "월": case "화": case "수": case "목": case "금": case "토": case "일":
                     int dayIndex = getDayIndex(day);
-                    if (idx_each[dayIndex] >= 7) { // 최대 7개 일정 제한
+                    if (idx_each[dayIndex] >= 7) {
                         System.out.println("더 이상 일정을 추가할 수 없습니다.");
                         continue;
                     }
