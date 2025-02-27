@@ -36,7 +36,7 @@ public class 자판기 {
 		this.expDate = expDate;
 	}
 	
-	public int calc() {
+	private int calc() {
 		change = money-price;
 		return change;
 	}

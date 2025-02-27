@@ -10,10 +10,6 @@ public class 자판기출력2 {
 		자판기[] pocketmenu = new 자판기[4];
 		int index = 0,sum=0;
 		
-		
-		
-		
-		
 		loop: while (true) {
 			System.err.println("============================================================");
 			System.out.println("원하는 제품을 입력하시오 1.데미소다, 2.파워에이드, 3.포스틱, 4.양파링 5.구매종료");
